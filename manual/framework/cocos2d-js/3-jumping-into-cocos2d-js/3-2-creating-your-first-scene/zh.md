@@ -45,7 +45,7 @@
 
 			var size = cc.winSize;
 
-        	var helloLabel = new cc.LabelTTF("Hello World", "", 38);
+        	var helloLabel = new cc.LabelTTF.create("Hello World", "", 38);
         	helloLabel.x = size.width / 2;
         	helloLabel.y = size.height / 2;
         	this.addChild(helloLabel);
